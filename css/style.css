@@ -399,6 +399,9 @@ section {
   gap: 24px;
 }
 .customers-list-item {
+ 
+}
+.customers-list-link {
   width: 168px;
   height: 88px;
 
@@ -413,14 +416,14 @@ section {
   fill: #8e8f99;
 }
 
-.customers-list-item,
+.customers-list-link,
 .customers-list-icon {
   transition-duration: 0.15s;
 }
-.customers-list-item:hover {
+.customers-list-link:hover {
   border: 1px solid #404bbf;
 }
-.customers-list-item:hover .customers-list-icon {
+.customers-list-link:hover .customers-list-icon {
   fill: #404bbf;
 }
 
@@ -516,6 +519,7 @@ section {
 }
 .footer-container {
   display: flex;
+  align-items: baseline
 }
 .footer-logo {
   margin-bottom: 16px;
