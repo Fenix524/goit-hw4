@@ -167,7 +167,7 @@ section {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/MainPage/Hero/hero-bg.jpg);
-  /* max-width: 1440px; */
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -363,16 +363,13 @@ section {
   color: var(--dont-active-elements);
   border-radius: 4px;
   border: 1px solid var(--dont-active-elements);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-list-icon {  
-  fill: currentColor; 
+.customers-list-icon {
+  fill: currentColor;
 }
 
-.customers-list-link,
-.customers-list-icon {
-  transition-duration: 0.15s;
-}
 .customers-list-link:hover,
 .customers-list-link:focus {
   border: 1px solid #404bbf;
@@ -381,8 +378,6 @@ section {
 .customers-list-link:hover .customers-list-icon {
   fill: #404bbf;
 }
-
-
 
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
@@ -422,7 +417,6 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -455,7 +449,8 @@ section {
 }
 .portfolio-list-link:hover,
 .portfolio-list-link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-link:hover .portfolio-list-img-box-description,
@@ -497,7 +492,6 @@ section {
 .portfolio-list-text {
 }
 
-
 /*
 ▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
 ▮▮   COMMON BLOCS
@@ -511,7 +505,8 @@ section {
 .header {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   height: 100%;
@@ -525,6 +520,7 @@ section {
 }
 .header-logo {
   margin-right: 76px;
+  color: #404bbf;
 }
 .header-navigation-list {
   display: flex;
@@ -537,7 +533,7 @@ section {
   font-weight: 500;
   color: var(--main-title-color);
   padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-navigation-link.active-page::after {
   content: '';
@@ -558,12 +554,12 @@ section {
 .header-contacts-list {
   display: flex;
   gap: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .header-contacts-item {
 }
 .header-contacts-link {
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-navigation-link,
 .header-contacts-link {
@@ -603,7 +599,7 @@ section {
   margin-bottom: 16px;
 }
 .footer-description {
-  color: #f4f4fd;  
+  color: #f4f4fd;
 }
 
 .footer-social-box {
@@ -641,7 +637,7 @@ section {
 }
 
 .footer-social-list-icon {
-  fill: var(--light-text-color)
+  fill: var(--light-text-color);
 }
 
 /*
